@@ -1,0 +1,73 @@
+/* style.css */
+
+body.dark-theme {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .site-header {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  .site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .site-nav {
+    margin-top: 0.5rem;
+  }
+  
+  .site-nav a {
+    color: #ccc;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .site-nav a:hover {
+    color: #fff;
+  }
+  
+  .site-main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section h2 {
+    color: #fff;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+  }
+  
+  a {
+    color: #5fa8d3;
+  }
+  
+  a:hover {
+    color: #7fc7ff;
+  }
+  
+  .site-footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #333;
+  }
+  
